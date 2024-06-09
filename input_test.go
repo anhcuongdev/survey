@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AlecAivazis/survey/v2/core"
-	"github.com/AlecAivazis/survey/v2/terminal"
+	"github.com/anhcuongdev/survey/v2/core"
+	"github.com/anhcuongdev/survey/v2/terminal"
 	"github.com/stretchr/testify/assert"
 )
 
