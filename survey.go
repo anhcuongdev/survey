@@ -101,7 +101,7 @@ type Validator func(ans interface{}) error
 // The function can be used to implement a custom logic that will result to return
 // a different representation of the given answer.
 //
-// Look `TransformString`, `ToLower` `Title` and `ComposeTransformers` for more.
+// Look `TransformString`, `ToLower` `Title` and `ComposeTransformers` for more
 type Transformer func(ans interface{}) (newAns interface{})
 
 // Question is the core data structure for a survey questionnaire.
